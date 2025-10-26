@@ -53,4 +53,4 @@ export default defineConfig({
 });
 
 // Install command
-pnpm.cmd install
+// pnpm.cmd install
