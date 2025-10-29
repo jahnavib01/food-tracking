@@ -1,65 +1,64 @@
-Open Visual Studio Code.
+1.Open Visual Studio Code.
 
-Clone or download the project folder to your local system.
+2.Clone or download the project folder to your local system.
 
-Open the project folder in VS Code.
+3.Open the project folder in VS Code.
 
-Make sure you have the following installed:
+4.Make sure you have the following installed:
 
-Java JDK (version 8 or above)
+   i.Java JDK (version 8 or above)
 
-Apache Maven (if using Spring Boot)
+   ii.Apache Maven (if using Spring Boot)
 
-MySQL Server (for database)
+   iii.MySQL Server (for database)
 
-Node.js (if frontend uses React)
+   iv.Node.js (if frontend uses React)
 
-VS Code Extensions for Java
+   v.VS Code Extensions for Java
 
-Database Setup:
+5.Database Setup:
 
-Open MySQL Workbench or command line.
+  i.Open MySQL Workbench or command line.
 
-Create a database (example: food_tracker).
+  ii.Create a database (example: food_tracker).
 
-Import the provided SQL file if available or manually create tables.
+  iii.Import the provided SQL file if available or manually create tables.
 
-Update the database connection details in the configuration file:
-For Spring Boot: src/main/resources/application.properties
-For JSP/Servlet: dbconfig.java or database.properties
+  iv.Update the database connection details in the configuration file:
+     For Spring Boot: src/main/resources/application.properties
+     For JSP/Servlet: dbconfig.java or database.properties
 
-Backend Setup:
+6.Backend Setup:
 
-If the project is using Spring Boot:
-Open terminal and run the command:
-mvn spring-boot:run
-OR
-Run the main class file (the one with @SpringBootApplication).
+  i.If the project is using Spring Boot:
+    Open terminal and run the command:
+    mvn spring-boot:run
+    OR Run the main class file (the one with @SpringBootApplication).
 
-If the project is using Servlets:
-Configure Apache Tomcat server in VS Code.
-Deploy the project to Tomcat.
-Start the server.
+  ii.If the project is using Servlets:
+    Configure Apache Tomcat server in VS Code.
+    Deploy the project to Tomcat.
+    Start the server.
 
-Frontend Setup:
+7.Frontend Setup:
 
-If frontend is built with React:
-Open a new terminal in VS Code.
-Navigate to frontend folder.
-Run the commands:
-pnpm install
-pnpm run dev
+   i.If frontend is built with React:
+     Open a new terminal in VS Code.
+     Navigate to frontend folder.
+     Run the commands:
+       pnpm install
+       pnpm run dev
 
-If frontend uses JSP:
-Access the application directly from Tomcat using:
-http://localhost:8080/FoodExpiryTracker
+   ii.If frontend uses JSP:
+      Access the application directly from Tomcat using:
+      http://localhost:8080/FoodExpiryTracker
 
-Application Usage:
+8.Application Usage:
 
-Register or log in to your account.
+   i.Register or log in to your account.
 
-Add new food items with their expiry dates.
+   ii.Add new food items with their expiry dates.
 
-View all items and check which are nearing expiry.
+   iii.View all items and check which are nearing expiry.
 
-Update or delete food items when needed.
+   iv.Update or delete food items when needed.
